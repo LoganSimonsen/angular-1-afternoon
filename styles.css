@@ -1,10 +1,20 @@
-body, html, h1, h2, h3, h4, h5, h6, ul{
+body,
+html,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul {
   padding: 0px;
   margin: 0px;
-  font-family: 'lucida grande',tahoma,verdana,arial,sans-serif;
+  font-family: "lucida grande", tahoma, verdana, arial, sans-serif;
+  background: #222;
+  color: white;
 }
 
-h1{
+h1 {
   text-align: center;
   padding: 20px 0px;
   margin-bottom: 20px;
@@ -15,22 +25,35 @@ h1{
 h1 strong {
   letter-spacing: -1px;
 }
+option {
+  color: black;
+}
+.input-medium {
+  color: black;
+}
+.listWrapper {
+  display: inline-flex;
+  flex-direction: row;
+  width: 100vw;
+}
 
-input, select, form, ul {
+input,
+select,
+form,
+ul {
   margin-top: 10px;
 }
 
-.searchForm{
+.searchForm {
   width: 500px;
-  margin:auto;
+  margin: auto;
   text-align: center;
 }
 
 .friends {
-
 }
 
-.friends ul{
+.friends ul {
   width: 500px;
   margin: auto;
   margin-top: 10px;
@@ -40,7 +63,7 @@ input, select, form, ul {
   font-size: 14px;
 }
 
-.friends li div{
+.friends li div {
   margin-bottom: 7px;
 }
 
@@ -50,7 +73,7 @@ input, select, form, ul {
   max-height: 50px;
 }
 
-.friend{
+.friend {
   text-align: left;
   border: 1px solid #ccc;
   padding: 15px;
@@ -72,16 +95,16 @@ ul {
 }
 
 .status {
-  margin-top:12px;
+  margin-top: 12px;
   clear: both;
 }
 
 .num-friends {
   color: #3b5998;
   font-size: 12px;
-  font-weight: bold
+  font-weight: bold;
 }
 
 .hashtag {
-  font-weight: bold
+  font-weight: bold;
 }
